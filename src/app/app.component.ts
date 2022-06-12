@@ -14,6 +14,6 @@ export class AppComponent {
     age : 15
   }
   home = () => {
-    return this.num
+    return this.obj.name
   }
 }
