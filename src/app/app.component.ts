@@ -7,10 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  value = '';
-  getValue(event: any)
-  {
-    console.warn(event);
-    this.value=event
+  name = 'abdul';
+  disableBox = true;
+  enableBox() {
+    this.disableBox = false;
   }
 }

@@ -1,8 +1,7 @@
 <h1 class="h1" style="background-color: orange">Welcome to Angular Tutorial</h1>
 
 <!-- Input text Value -->
-<label for="text">Input Text Value</label>
-<input type="text" #root1 (keyup)="getValue(root1.value)"/>
-<input type="text" #root />
-<button (click)="getValue(root.value)">Get Value</button>
-<h2>{{value}}</h2>
+<input type="text" [disabled]="disableBox" [value]="name">
+<br><br>
+<input type="text" disabled={{disableBox}} value={{name}}> <!-- disable not apply -->
+<button (click)="enableBox()">Enable TextBox</button>
