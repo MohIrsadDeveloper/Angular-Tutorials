@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  name = 'abdul';
-  disableBox = true;
-  enableBox() {
-    this.disableBox = false;
-  }
+  // show = true;
+  // show = 'yes';
+  // show = 'green'
+  // show = 'blue';
+  show = 'orange';
 }
+
