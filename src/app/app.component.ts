@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  // show = true;
-  // show = 'yes';
-  // show = 'green'
-  // show = 'blue';
-  show = 'orange';
+  // color = 'green';
+  // color = 'blue';
+  // color = 'orange';
+  color = 'gray';
+
 }
 

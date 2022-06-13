@@ -1,35 +1,16 @@
 <h1 class="h1" style="background-color: orange">Welcome to Angular Tutorial</h1>
 
-<!-- <h1 *ngIf="show else elseBlock">
-    if block
-</h1>
-<ng-template #elseBlock>
-<h2>else Block</h2>
-</ng-template> -->
-
-<!-- <h1 *ngIf="show=='yes' else elseBlock ">
-    show block
-</h1>
-<ng-template #elseBlock>
-<h2>else Block</h2>
-</ng-template> -->
-
-<!-- <h2 *ngIf="show=='yes' then ifBlock else elseBlock ">
-</h2>
-<ng-template #ifBlock>
-    <h2>if block</h2>
-</ng-template>
-<ng-template #elseBlock>
-    <h2>else block</h2>
-</ng-template> -->
-
-
-<ng-template [ngIf]="show=='green'">
-    <h2>green block</h2>
-</ng-template>
-<ng-template [ngIf]="show=='blue'">
-    <h2>blue block</h2>
-</ng-template>
-<ng-template [ngIf]="show=='orange'">
-    <h2>orange block</h2>
-</ng-template>
+<div [ngSwitch]="color">
+    <h2 style="color: green;" *ngSwitchCase="'green'">
+        Green Color
+    </h2>
+    <h2 style="color: orange;" *ngSwitchCase="'orange'">
+        Orange Color
+    </h2>
+    <h2 style="color: blue;" *ngSwitchCase="'blue'">
+        Blue Color
+    </h2>
+    <h2 style="color: gray;" *ngSwitchDefault>
+        Default Color
+    </h2>
+</div>
