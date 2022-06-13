@@ -7,19 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  // call function
-  getName() {
-    alert('abdul')
+  myEvent(param:any) {
+    console.log(param);
+    
   }
-
-  // call function with parameter
-  getName1(name:string) {
-    alert(name)
-  }
-
-  // call function with property params
-  myName = 'ayesha'
-  getName2 = (name:string) => {
-    alert(name);
-  };
 }

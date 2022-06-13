@@ -76,14 +76,14 @@ Interpolation => {{}} => Inside this curly braces we can access any string, numb
 
 
 <!-- 9. Event in angular -->
-    Import Event in angular
-    click Event
-    keyup event
-    keyup with enter and space
-    keydown
-    blur
-    mouseover and mouseleave
-    get values on textbox
+    ***Import Event in angular
+    *click Event 
+    *keyup event (keyup) => when we remove fingure then get  value
+    *get values on textbox
+    *keyup with enter and space (keyup.enter, keyup.space)
+    *keydown => run on every change
+    *blur
+    *mouseover and mouseleave
 
 
 <!-- 10. Get input box value -->
