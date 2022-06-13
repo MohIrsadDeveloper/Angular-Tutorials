@@ -1,41 +1,8 @@
 <h1 class="h1" style="background-color: orange">Welcome to Angular Tutorial</h1>
-<!-- click Event -->
-<button (click)="myEvent('click event')">Click Event</button>
-<br><br>
 
-<!-- keyup Event -->
-<input type="text" name="keyup" id="keyup" placeholder="Key Up Event" (keyup)="myEvent('keyup event')">
-<br><br>
-
-<!-- Get Value on Text -->
-<label for="getValue">To get Input Value</label>
-<input type="text" name="keyup" id="keyup" placeholder="Key Up Event" #text (keyup)="myEvent(text.value)">
-<br><br>
-
-<!-- keyup with enter -->
-<label for="getValue">To get Input Value</label>
-<input type="text" name="keyup" id="keyup" placeholder="Key Up Event with Enter" #enter (keyup.enter)="myEvent(enter.value)">
-<br><br>
-
-<!-- keyup with space -->
-<label for="getValue">To get Input Value</label>
-<input type="text" name="keyup" id="keyup" placeholder="Key Up Event with Space" #space (keyup.space)="myEvent(space.value)">
-<br><br>
-
-<!-- keydown Event -->
-<input type="text" name="keyup" id="keyup" placeholder="Key Down Event" (keydown)="myEvent('keydown event')">
-<input type="text" name="keyup" id="keyup" placeholder="Key Down Event" #keydown (keydown)="myEvent(keydown.value)">
-<br><br>
-
-
-<!-- blur Event -->
-<input type="text" name="keyup" id="keyup" placeholder="Key Down Event" (blur)="myEvent('blur event')">
-<input type="text" name="keyup" id="keyup" placeholder="Key Down Event" #blur (blur)="myEvent(blur.value)">
-<br><br>
-
-<!-- Mouseover Event -->
-<h1 style="padding: 20px; background-color: green;" (mouseover)="myEvent('mouseOver')">Mouse Over</h1>
-
-
-<!-- Mouseleave Event -->
-<h1 style="padding: 20px; background-color: gray;" (mouseleave)="myEvent('mouse Leave')">Mouse Over</h1>
+<!-- Input text Value -->
+<label for="text">Input Text Value</label>
+<input type="text" #root1 (keyup)="getValue(root1.value)"/>
+<input type="text" #root />
+<button (click)="getValue(root.value)">Get Value</button>
+<h2>{{value}}</h2>

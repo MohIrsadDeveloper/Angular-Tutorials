@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  myEvent(param:any) {
-    console.log(param);
-    
+  value = '';
+  getValue(event: any)
+  {
+    console.warn(event);
+    this.value=event
   }
 }
