@@ -1,25 +1,4 @@
 <h1 class="h1" style="background-color: orange">Welcome to Angular Tutorial</h1>
-
-<app-login></app-login>
-<app-register></app-register>
-
-<h2 class="h2">Title : </h2>
-<h1>{{title}}</h1>
-
-<h2 class="h2">Number/Integer : </h2>
-<h1>{{num}}</h1>
-<h1>{{num+num}}</h1>
-<h1>{{30+30}}</h1>
-
-<h2 class="h2">Array : </h2>
-<h1>{{arr[0]}}</h1>
-<h1>{{arr[1]}}</h1>
-<h1>{{arr[1]}}</h1>
-
-
-<h2 class="h2">Object :</h2>
-<h1>{{obj.name}}</h1>
-<h1>{{obj.age}}</h1>
-
-<h2 class="h2">Functions :</h2>
-<h1>{{home()}}</h1>
+<button (click)="getName()">GET NAME</button> <!-- call function -->
+<button (click)="getName1('asma')">GET NAME1</button> <!-- call function with parameter -->
+<button (click)="getName2(myName)">GET NAME2</button> <!-- call function with pass property params -->
