@@ -7,24 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  // data = ['abdul', 'asma', 'ayesha', 'kulsum'],
-  data = [
-    {
-      name : "abdul",
-      age : 16,
-      email : "abdul@gmail.com"
-    },
-    {
-      name : "asma",
-      age : 18,
-      email : "asma@gmail.com"
-    },
-    {
-      name : "ayesha",
-      age : 19,
-      email : "ayesha@gmail.com"
-    }
-  ]
-
+  getValues(val:any) {
+    console.log(val); 
+  }
 }
 

@@ -1,22 +1,13 @@
-<h1>For Loop in Angular</h1>
-<!-- <h4 *ngFor = "let item of data">
-    {{item}}
-</h4>  -->
+<h1>Simple Form in Angular</h1>
 
-<!-- <h4 *ngFor = "let item of data">
-    {{item.name}}
-    {{item.age}}
-</h4>  -->
-
-<table border="1">
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Email</th>
-    </tr>
-    <tr *ngFor="let item of data">
-        <td>{{item.name}}</td>
-        <td>{{item.age}}</td>
-        <td>{{item.email}}</td>
-    </tr>
-</table>
+<form #simpleForm="ngForm" (ngSubmit)="getValues(simpleForm.value)">
+    <input type="text" ngModel name="user" id="user" placeholder="Enter user Name">
+    <br><br>
+    <input type="text" ngModel name="age" id="age" placeholder="Enter user Age">
+    <br><br>
+    <input type="text" ngModel name="address" id="address" placeholder="Enter user Address">
+    <br><br>
+    <input type="password" ngModel name="password" id="password" placeholder="Enter user password">
+    <br><br>
+    <button>Get User Values</button>
+</form>
