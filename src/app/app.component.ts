@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  
+  color = 'blue';
+  err = false;
+  changeColor() {
+    // this.err = true;
+    this.err = !this.err
+  }
+
 }
 

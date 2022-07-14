@@ -1,3 +1,8 @@
 <app-header></app-header>
-<h1>Make Header Footer in Angular</h1>
+<h1>Style Binding in Angular</h1>
+<h1 style="color: red">Heading 1</h1>
+<!-- <h1 [style.color]="'green'">Heading 1 with binding</h1> -->
+<!-- <h1 [style.color]="color">Heading with dynamic</h1> -->
+<h1 [style.color]="err?'red':'green'">Conditional Statment Heading</h1>
+<button (click)="changeColor()">Change Color</button>
 <app-footer></app-footer>
