@@ -7,8 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  getValues(val:any) {
-    console.log(val); 
-  }
+  
 }
 
