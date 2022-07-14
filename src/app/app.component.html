@@ -1,16 +1,22 @@
-<h1 class="h1" style="background-color: orange">Welcome to Angular Tutorial</h1>
+<h1>For Loop in Angular</h1>
+<!-- <h4 *ngFor = "let item of data">
+    {{item}}
+</h4>  -->
 
-<div [ngSwitch]="color">
-    <h2 style="color: green;" *ngSwitchCase="'green'">
-        Green Color
-    </h2>
-    <h2 style="color: orange;" *ngSwitchCase="'orange'">
-        Orange Color
-    </h2>
-    <h2 style="color: blue;" *ngSwitchCase="'blue'">
-        Blue Color
-    </h2>
-    <h2 style="color: gray;" *ngSwitchDefault>
-        Default Color
-    </h2>
-</div>
+<!-- <h4 *ngFor = "let item of data">
+    {{item.name}}
+    {{item.age}}
+</h4>  -->
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+    </tr>
+    <tr *ngFor="let item of data">
+        <td>{{item.name}}</td>
+        <td>{{item.age}}</td>
+        <td>{{item.email}}</td>
+    </tr>
+</table>

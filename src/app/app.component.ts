@@ -7,10 +7,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  // color = 'green';
-  // color = 'blue';
-  // color = 'orange';
-  color = 'gray';
+  // data = ['abdul', 'asma', 'ayesha', 'kulsum'],
+  data = [
+    {
+      name : "abdul",
+      age : 16,
+      email : "abdul@gmail.com"
+    },
+    {
+      name : "asma",
+      age : 18,
+      email : "asma@gmail.com"
+    },
+    {
+      name : "ayesha",
+      age : 19,
+      email : "ayesha@gmail.com"
+    }
+  ]
 
 }
 
