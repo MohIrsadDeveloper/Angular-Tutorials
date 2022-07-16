@@ -7,11 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  name = "";
-  parentFunction(data:any) {
-    console.log(data);
-    this.name = data.name;
-  }
-
+  name = "Abdul IdrisI";
+  today = Date.now();
+  str = "Hello Angular";
+  money = 100;
+  
 }
 
