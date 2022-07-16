@@ -153,6 +153,9 @@ Interpolation => {{}} => Inside this curly braces we can access any string, numb
     Try with some bootstrap example
     We Check and use code from Official website of ng-bootstrap
 
+Steps =>
+    1. ng add @ng-bootstrap/ng-bootstrap
+
 
 <!-- 19. Add Material UI in angular 10 -->
     What is material UI
@@ -160,6 +163,9 @@ Interpolation => {{}} => Inside this curly braces we can access any string, numb
     Select some when while installing Material
     Use some component with example
     Such as Slider and Button
+
+Steps =>
+    1. ng add @angular-material
 
 
 <!-- 20. Pass Data To Child Component -->
