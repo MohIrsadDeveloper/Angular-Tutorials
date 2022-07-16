@@ -1,3 +1,14 @@
-<p>{{hero.name}}</p>
-<p>{{hero.age}}</p>
-<p>{{hero.email}}</p>
+<div>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        <tr *ngFor="let item of data">
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.email}}</td>
+        </tr>
+    </table>
+</div>

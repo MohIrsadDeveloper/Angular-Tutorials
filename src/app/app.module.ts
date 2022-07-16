@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UserComponent } from './user/user.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { UserComponent } from './user/user.component';
     HeaderComponent,
     FooterComponent,
     UserComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,

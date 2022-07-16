@@ -175,6 +175,12 @@ Steps =>
     Display data in child Component
 
 
+<!-- 21. Reusable Component in Angular -->
+    Make a user component
+    Use it inside app component as child
+    Pass data from parent to Child
+    Use for loop and result child component
+
 <!-- 23. Pipe with Example -->
     What is pipe
         Pipe with String
