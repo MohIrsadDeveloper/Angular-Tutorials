@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-user',
@@ -7,10 +7,20 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
-  @Input() data:any;
+  @Output() parentFunction:EventEmitter<any> = new EventEmitter();
+
   constructor() { }
 
   ngOnInit(): void {
+   
+  }
+  getData() {
+    let data = {
+      name : "abdul",
+      age : 16,
+      email : "abdul@gmail.com"
+    }
+    this.parentFunction.emit(data)
   }
 
 }

@@ -1,8 +1,7 @@
 <app-header></app-header>
 <h1>Pass Data from Parent to Child in Angular</h1>
-<h2>{{data}}</h2>
 
-<app-user [data]="data"></app-user>
-<app-users [users]="data"></app-users>
+<app-user (parentFunction)="parentFunction($event)"></app-user>
 
+<h1>{{name}}</h1>
 <app-footer></app-footer>
