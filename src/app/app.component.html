@@ -1,10 +1,22 @@
 <app-header></app-header>
-<h1>Recap Module and Routing in Angular</h1>
+<h1>Grouping Routing in Angular</h1>
 <ul>
+    <h3>Admin Routes</h3>
     <li>
-        <a routerLink="login">Go to Login Page</a>
-        <br>
-        <a routerLink="list">Go to List Page</a>
+        <a routerLink="admin/login">Go to Login Page</a>
+    </li>
+    <li>
+        <a routerLink="admin/list">Go to List Page</a>
+    </li>
+</ul>
+<hr>
+<ul>
+    <h3>User Routes</h3>
+    <li>
+        <a routerLink="user/login">Go to Login Page</a>
+    </li>
+    <li>
+        <a routerLink="user/list">Go to List Page</a>
     </li>
 </ul>
 <router-outlet></router-outlet>

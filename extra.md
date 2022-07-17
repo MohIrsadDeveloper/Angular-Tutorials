@@ -261,3 +261,14 @@ steps =>
     1. ng g m admin --routing
     2. ng g c admin/login
     2. ng g c admin/list
+
+<!-- 33. Group Routing in Angular -->
+    Recap Previous Video
+    Make one more Module and route for it
+    Make Grouped Route
+
+<!-- 34.  -->
+
+<!-- 35.  -->
+
+<!-- 36.  -->
