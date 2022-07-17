@@ -245,4 +245,9 @@ steps =>
     Use model with component file
     Use model with service file
 
-<!-- 31.  -->
+<!-- 31. Recap Module and Routing -->
+    Make Module
+    Add Component inside Module
+    Show Module component
+    Add Routing and Routing Link
+    Add Module and Routing
