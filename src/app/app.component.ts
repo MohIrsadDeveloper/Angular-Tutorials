@@ -10,8 +10,8 @@ export class AppComponent {
   title = 'angular-tutorial';
   name = "";
   constructor(private user:UsersService) {
-    console.log(this.user.getData());
-    this.name = this.user.getData().name;
+    let data = this.user.getData();
+    this.name = data.name;
   }
   
 }
