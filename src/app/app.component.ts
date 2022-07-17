@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { UsersService } from './users.service';
-
+import { dataType } from './users';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,12 +7,14 @@ import { UsersService } from './users.service';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  dataList:any = [];
-  constructor(private user:UsersService) {
-    this.user.getData().subscribe(data => {
-      console.log(data);
-      this.dataList = data;
-    })
+  getData() {
+    const data:dataType = {
+      name : "abdul",
+      age : 16,
+      Indian : true,
+      address : "Mumbai, India"
+    }
+    return data;
   }
   
 }
