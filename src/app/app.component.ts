@@ -7,10 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  name = "Abdul IdrisI";
-  today = Date.now();
-  str = "Hello Angular";
-  money = 100;
+
   
 }
 
