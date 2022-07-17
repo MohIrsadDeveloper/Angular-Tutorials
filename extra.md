@@ -208,4 +208,21 @@ ng generate module app-routing --flat --module-app
     Use it as 404 page with wildcard routing
 
 
-<!-- 26.  -->
+<!-- 26. What is directive -->
+    Example of default directive
+    How to make custom directive
+    Run Command ng g directive
+    Use it with html
+step =>
+    1. ng g directive <directive_Name>
+
+
+<!-- 27.  -->
+
+<!-- 28.  -->
+
+<!-- 29.  -->
+
+<!-- 30.  -->
+
+<!-- 31.  -->
