@@ -251,3 +251,13 @@ steps =>
     Show Module component
     Add Routing and Routing Link
     Add Module and Routing
+
+<!-- 32. What is Routing Module -->
+    Make module with routing file
+    Define routing inside module
+    Make routing link
+    Test
+steps =>
+    1. ng g m admin --routing
+    2. ng g c admin/login
+    2. ng g c admin/list

@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { UsersModule } from './users/users.module';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { UsersModule } from './users/users.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    UsersModule,
+    AdminModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
