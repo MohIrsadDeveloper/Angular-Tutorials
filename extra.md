@@ -267,7 +267,12 @@ steps =>
     Make one more Module and route for it
     Make Grouped Route
 
-<!-- 34.  -->
+<!-- 34. Lazy Loading in Angular -->
+    Make a module
+    Make two Components
+    Use module in lazy loading way
+    Make Routing
+    Make Routing Link
 
 <!-- 35.  -->
 

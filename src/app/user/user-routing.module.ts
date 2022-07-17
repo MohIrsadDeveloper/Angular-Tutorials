@@ -4,9 +4,6 @@ import { ListComponent } from './list/list.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  {
-    path : "user",
-    children : [
       {
         path : "list",
         component : ListComponent
@@ -15,8 +12,6 @@ const routes: Routes = [
         path : "login",
         component : LoginComponent
       }
-    ]
-  }
 ];
 
 @NgModule({
