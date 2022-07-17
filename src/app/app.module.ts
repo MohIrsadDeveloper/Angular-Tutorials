@@ -11,6 +11,7 @@ import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CustomStyleDirective } from './custom-style.directive';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { CustomStyleDirective } from './custom-style.directive';
     AppRoutingModule,
     FormsModule,
     MatButtonModule,
+    HttpClientModule,
     
     BrowserAnimationsModule
   ],

@@ -225,8 +225,13 @@ steps =>
     1. ng g service <service_name>
     eg. ng g service users
 
-<!-- 28.  -->
-
+<!-- 28. What is API -->
+    How to make service
+    How to Fetch API data in service
+    Import in component
+    Get data in component
+steps =>
+    1. ng g service users
 <!-- 29.  -->
 
 <!-- 30.  -->

@@ -8,10 +8,12 @@ import { UsersService } from './users.service';
 })
 export class AppComponent {
   title = 'angular-tutorial';
-  name = "";
+
   constructor(private user:UsersService) {
-    let data = this.user.getData();
-    this.name = data.name;
+    this.user.getData().subscribe(data=> {
+      console.log(data);
+      
+    })
   }
   
 }
