@@ -217,7 +217,13 @@ step =>
     1. ng g directive <directive_Name>
 
 
-<!-- 27.  -->
+<!-- 27. What is service in Angular -->
+    How to make service
+    How to use service
+    Example
+steps =>
+    1. ng g service <service_name>
+    eg. ng g service users
 
 <!-- 28.  -->
 
