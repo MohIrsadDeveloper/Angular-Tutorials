@@ -8,10 +8,11 @@ import { UsersService } from './users.service';
 })
 export class AppComponent {
   title = 'angular-tutorial';
+  dataList:any = [];
   constructor(private user:UsersService) {
     this.user.getData().subscribe(data => {
       console.log(data);
-      
+      this.dataList = data;
     })
   }
   

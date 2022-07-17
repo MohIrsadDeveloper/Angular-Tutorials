@@ -1,4 +1,16 @@
 <app-header></app-header>
-<h1>Fetch Data in Angular</h1>
+<h1>Show List from Fetch API Data in Angular</h1>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Restaurant Address</th>
+        <th>Restaurant Name</th>
+    </tr>
+    <tr *ngFor="let item of dataList">
+        <td>{{item.restaurant_id}}</td>
+        <td>{{item.address}}</td>
+        <td>{{item.restaurant_name}}</td>
+    </tr>
+</table>
 
 <app-footer></app-footer>

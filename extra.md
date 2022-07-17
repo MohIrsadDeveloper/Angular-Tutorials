@@ -232,8 +232,17 @@ steps =>
     Get data in component
 steps =>
     1. ng g service users
-<!-- 29.  -->
 
-<!-- 30.  -->
+
+<!-- 29. Continue from last video -->
+    Make Table in html file
+    Use for loop for render data with table
+
+<!-- 30. What is model -->
+    How to make it
+    How to use it
+    With model with other file
+    Use model with component file
+    Use model with service file
 
 <!-- 31.  -->
